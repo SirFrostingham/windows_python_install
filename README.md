@@ -35,10 +35,10 @@ Best, most flexible way to install Python on a Windows system, whether you are a
   - Run: `pyenv global 3.11.9`
 
 - Update Environment Variables:
-  - Open System Properties: `sysdm.cpl`
+  - Open System Properties - Run: `sysdm.cpl`
   - Go to Advanced tab > Environment Variables.
   - In User variables, edit or create `Path`.
-  - Add:
+  - Add 2 entries:
     - `%USERPROFILE%\.pyenv\pyenv-win\bin`
     - `%USERPROFILE%\.pyenv\pyenv-win\shims`
 
